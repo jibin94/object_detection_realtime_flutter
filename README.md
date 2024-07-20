@@ -3,7 +3,7 @@
 Tflite model files can be created using a [Google Teachable machine](https://teachablemachine.withgoogle.com), using which we can create custom model files based on our requirements.
 There are pre-trained [TensorFlow Lite model examples](https://www.tensorflow.org/lite/examples) and can be used in sample apps for a variety of ML applications.<br />
 - **Add TensorFlow Lite Model**: Place your downloaded TensorFlow Lite model in the assets folder of your Flutter project.<br />
-- **Update the pubspec.yaml file** to include the model in the assets.
+- **Update the pubspec.yaml file** to include the model in the assets.<br />
   assets:
    — assets/ssd_mobilenet.tflite 
    — assets/ssd_mobilenet.txt
